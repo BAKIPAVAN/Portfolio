@@ -1,0 +1,805 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg  fixed-top devfolio-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#home">
+      <i class="bi bi-code"></i>DevPortfolio
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="position-fixed bottom-0 end-0 m-3">
+      <button id="chatbotToggle" class="btn btn-info rounded-circle fab-btn" title="Open chat" #chatbotContainer
+        style="width: 56px; height: 56px;">
+        <i class="bi bi-chat-dots"></i>
+        <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">23</span>
+      </button>
+    </div> -->
+
+
+    <div class="position-fixed bottom-0 end-0 m-3">
+      <button id="chatbotToggle" class="chatbot-toggle" title="Chat with me">
+        <i class="bi bi-chat-dots"></i>
+        <!-- <span class="chatbot-badge">23</span> -->
+      </button>
+    </div>
+
+    <!-- <button id="chatbotToggle" class="chatbot-toggle" title="Chat with me">
+  <i class="bi bi-chat-dots"></i>
+  <span class="chatbot-badge">23</span>
+</button> -->
+
+
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="hero-section py-5">
+  <div class="container">
+    <div class="row align-items-center min-vh-100">
+      <div class="col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
+        <!-- <img src="../assets/images//hero_image.png" alt="Profile" class="rounded-circle w-50" /> -->
+        <img src="https://images.news18.com/ibnlive/uploads/2019/05/Mahesh-Babus-Maharshi-7.jpg" alt="Profile"
+          class="img-fluid   " />
+        <!-- <div class="rounded-circle hero-avatar d-flex align-items-center justify-content-center bg-primary text-white"
+          style="width: 200px; height: 200px; font-size: 4rem;">
+          <i class="bi bi-person"></i>
+        </div> -->
+      </div>
+
+      <div class="col-lg-7 text-left">
+        <h1 class="display-4 fw-bold mb-2">Hi, I'm Pavan Baki</h1>
+        <h3 class="mb-3 text-secondary"> <span id="typedRole" class="text-primary"></span><span
+            class="typed-cursor"></span></h3>
+        <!--Full Stack Developer-->
+        <p class="lead text-muted mb-4">I design and build web applications with a focus on clean UX and
+          reliable engineering.</p>
+        <div class="d-flex gap-3">
+          <a href="#portfolio" class="btn btn-primary btn-lg">
+            <i class="bi bi-briefcase"></i> Hire Me
+          </a>
+          <a href="#contact" class="btn btn-outline-primary btn-lg">
+            <i class="bi bi-envelope"></i> Get In Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <h2 class="section-title mb-5">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="https://i.pinimg.com/736x/48/52/14/485214cf80902d7effb484e4f1685726.jpg" alt="About Me"
+          class="img-fluid rounded" />
+        <!-- <div class="img-fluid rounded d-flex align-items-center justify-content-center bg-secondary text-white"
+          style="height: 400px; font-size: 3rem;">
+          <i class="bi bi-person-circle"></i>
+        </div> -->
+      </div>
+      <div class="col-lg-6 text-left">
+        <p class="mb-4">
+          I'm a passionate developer with 4+ years of experience building web applications that solve
+          real-world problems.
+        </p>
+        <p class="mb-4">
+          My journey started with a love for code and has evolved into a mission to create intuitive,
+          scalable, and
+          beautiful digital experiences.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-item mb-3">
+            <h5><i class="bi bi-check-circle text-primary"></i> Problem Solver</h5>
+            <p class="text-muted">I approach every project with a problem-solving mindset.</p>
+          </div>
+          <div class="highlight-item mb-3">
+            <h5><i class="bi bi-check-circle text-primary"></i> Full Stack Developer</h5>
+            <p class="text-muted">Proficient in frontend and backend technologies.</p>
+          </div>
+          <div class="highlight-item mb-3">
+            <h5><i class="bi bi-check-circle text-primary"></i> Continuous Learner</h5>
+            <p class="text-muted">Always exploring new technologies and best practices.</p>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="mt-4">
+          <h5 class="mb-3">Skills</h5>
+
+          <!-- skill badges -->
+          <div class="mb-3">
+            <span class="badge badge-skill me-2 m-1">Angular</span>
+            <span class="badge badge-skill me-2 m-1">MicroFrontEnd</span>
+            <span class="badge badge-skill me-2 m-1">SpringBoot</span>
+            <span class="badge badge-skill me-2 m-1">MicroServices</span>
+            <span class="badge badge-skill me-2 m-1">Java</span>
+            <span class="badge badge-skill me-2 m-1">TypeScript</span>
+            <span class="badge badge-skill me-2 m-1">HTML5</span>
+            <span class="badge badge-skill me-2 m-1">CSS3</span>
+            <span class="badge badge-skill me-2 m-1">Bootstrap</span>
+            <span class="badge badge-skill me-2 m-1">SQL</span>
+            <span class="badge badge-skill me-2 m-1">AWS</span>
+            <span class="badge badge-skill me-2 m-1">Docker</span>
+          </div>
+
+          <!-- skill progress -->
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <small class="text-secondary">Frontend</small>
+              <div class="progress" style="height:10px; border-radius:8px;">
+                <div class="progress-bar" role="progressbar"
+                  style="width:90%; background:linear-gradient(90deg,var(--primary-color),var(--primary-dark));"
+                  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <small class="text-secondary">Backend</small>
+              <div class="progress" style="height:10px; border-radius:8px;">
+                <div class="progress-bar" role="progressbar"
+                  style="width:80%; background:linear-gradient(90deg,var(--primary-color),var(--primary-dark));"
+                  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <small class="text-secondary">DevOps / Tools</small>
+              <div class="progress" style="height:10px; border-radius:8px;">
+                <div class="progress-bar" role="progressbar"
+                  style="width:70%; background:linear-gradient(90deg,var(--primary-color),var(--primary-dark));"
+                  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <small class="text-secondary">BFSI Domain Knowledge</small>
+              <div class="progress" style="height:10px; border-radius:8px;">
+                <div class="progress-bar" role="progressbar"
+                  style="width:85%; background:linear-gradient(90deg,var(--primary-color),var(--primary-dark));"
+                  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Skills -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section py-5">
+  <div class="container">
+    <h2 class="section-title mb-5">Services</h2>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100">
+          <div class="card-body">
+            <div class="service-icon mb-3">
+              <i class="bi bi-phone"></i>
+            </div>
+            <h5 class="card-title">Mobile App Development</h5>
+            <p class="card-text">
+              Native and cross-platform mobile applications for iOS and Android.
+            </p>
+            <!-- <p class="service-price"><strong>$50/hour</strong></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100">
+          <div class="card-body">
+            <div class="service-icon mb-3">
+              <i class="bi bi-globe"></i>
+            </div>
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">
+              Full-stack web applications built with modern frameworks and best practices.
+            </p>
+            <!-- <p class="service-price"><strong>$45/hour</strong></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100">
+          <div class="card-body">
+            <div class="service-icon mb-3">
+              <i class="bi bi-palette"></i>
+            </div>
+            <h5 class="card-title">UI/UX Design</h5>
+            <p class="card-text">
+              Beautiful and intuitive user interfaces with focus on user experience.
+            </p>
+            <!-- <p class="service-price"><strong>$40/hour</strong></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100">
+          <div class="card-body">
+            <div class="service-icon mb-3">
+              <i class="bi bi-plug"></i>
+            </div>
+            <h5 class="card-title">API Development</h5>
+            <p class="card-text">
+              RESTful and GraphQL APIs with scalability and security in mind.
+            </p>
+            <!-- <p class="service-price"><strong>$48/hour</strong></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100">
+          <div class="card-body">
+            <div class="service-icon mb-3">
+              <i class="bi bi-headphones"></i>
+            </div>
+            <h5 class="card-title">Consulting</h5>
+            <p class="card-text">
+              Technical consulting and architecture planning for your projects.
+            </p>
+            <!-- <p class="service-price"><strong>$60/hour</strong></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100">
+          <div class="card-body">
+            <div class="service-icon mb-3">
+              <i class="bi-check-circle "></i>
+            </div>
+            <h5 class="card-title">Testing & QA</h5>
+            <p class="card-text">
+              Comprehensive testing strategies and quality assurance processes.
+            </p>
+            <!-- <p class="service-price"><strong>$35/hour</strong></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience-section py-5">
+  <div class="container">
+    <h2 class="section-title mb-5">Experience</h2>
+    <div class="experience-timeline">
+      <!-- Experience Item 1 -->
+      <div class="experience-item">
+        <div class="experience-header">
+          <h4>Specialist Quality Engineering</h4>
+          <div class="experience-date">2025 - Present</div>
+          <div class="experience-company">Cognizant Technology Solutions Corporation</div>
+        </div>
+        <p class="text-muted">Led development of multiple full-stack applications, mentored junior devs, and improved
+          system performance by 40%.</p>
+        <div class="experience-skills">
+          <span class="badge badge-skill me-1">Angular</span>
+          <span class="badge badge-skill me-1">SpringBoot</span>
+          <span class="badge badge-skill me-1">Oracle SQL</span>
+        </div>
+      </div>
+
+      <!-- Experience Item 2 -->
+      <!--      <div class="experience-item">
+        <div class="experience-header">
+          <h4>Full Stack Developer</h4>
+          <div class="experience-date">2020 - 2022</div>
+          <div class="experience-company">Digital Solutions Ltd.</div>
+        </div>
+        <p class="text-muted">Built and maintained web applications for 20+ clients, implemented responsive designs, and
+          optimized DB queries.</p>
+        <div class="experience-skills">
+          <span class="badge badge-skill me-1">Angular</span>
+          <span class="badge badge-skill me-1">SpringBoot</span>
+          <span class="badge badge-skill me-1">Oracle SQL</span>
+        </div>
+      </div>-->
+
+      <!-- Experience Item 3 -->
+      <div class="experience-item">
+        <div class="experience-header">
+          <h4>Associate COnsultant</h4>
+          <div class="experience-date">2013 - 2025</div>
+          <div class="experience-company">Intellect Design Arena Pvt Ltd</div>
+        </div>
+        <p class="text-muted">Built responsive websites and contributed to open-source projects while collaborating with
+          cross-functional teams.</p>
+        <div class="experience-skills">
+          <span class="badge badge-skill me-1">Angular</span>
+          <span class="badge badge-skill me-1">SpringBoot</span>
+          <span class="badge badge-skill me-1">Oracle SQL</span>
+        </div>
+      </div>
+
+      <!-- Experience Item 4 -->
+      <div class="experience-item">
+        <div class="experience-header">
+          <h4>System ENgineer</h4>
+          <div class="experience-date">2022 - 2023</div>
+          <div class="experience-company">Intellect Design Arena Pvt Ltd</div>
+        </div>
+        <p class="text-muted">Focused on UI implementations, accessibility improvements, and design-system components
+          for multiple client apps.</p>
+        <div class="experience-skills">
+          <span class="badge badge-skill me-1">Angular</span>
+          <span class="badge badge-skill me-1">SpringBoot</span>
+          <span class="badge badge-skill me-1">Oracle SQL</span>
+        </div>
+      </div>
+
+      <!-- Experience Item 5 -->
+      <div class="experience-item">
+        <div class="experience-header">
+          <h4>System Trainee</h4>
+          <div class="experience-date">2021 - 2022</div>
+          <div class="experience-company">Intellect Design Arena Pvt Ltd</div>
+        </div>
+        <p class="text-muted">Worked on small features, bug fixes, and learned full lifecycle development practices in
+          an agile team.</p>
+        <div class="experience-skills">
+          <span class="badge badge-skill me-1">Angular</span>
+          <span class="badge badge-skill me-1">SpringBoot</span>
+          <span class="badge badge-skill me-1">Oracle SQL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section py-5">
+  <div class="container">
+    <h2 class="section-title mb-5">Portfolio</h2>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card portfolio-card h-100">
+          <div class="card-img-top portfolio-img d-flex align-items-center justify-content-center bg-info text-white"
+            style="height: 200px; font-size: 2rem;">
+            <!-- <i class="bi bi-diagram-3"></i> -->
+            <img
+              src="https://media.istockphoto.com/id/1428709516/photo/shopping-online-woman-hand-online-shopping-on-laptop-computer-with-virtual-graphic-icon.jpg?s=612x612&w=0&k=20&c=ROAncmFL4lbSQdU4VOhyXu-43ngzfEqHE5ZZAw5FtYk="
+              alt="E-Commerce Platform" class="img-fluid rounded">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce Platform</h5>
+            <p class="card-text">
+              A full-featured e-commerce platform with payment integration and inventory management.
+            </p>
+            <div class="portfolio-tags mb-3">
+              <span class="badge badge-skill">Angular</span>
+              <span class="badge badge-skill">SpringBoot</span>
+              <span class="badge badge-skill">PayPal</span>
+            </div>
+          </div>
+          <div class="card-footer border-0 bg-transparent">
+            <button class="btn btn-sm btn-primary w-100" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+              <i class="bi bi-eye"></i> View Details
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card portfolio-card h-100">
+          <div class="card-img-top portfolio-img d-flex align-items-center justify-content-center bg-success text-white"
+            style="height: 200px; font-size: 2rem;">
+            <!-- <i class="bi bi-graph-up"></i> -->
+            <img
+              src="https://images.klipfolio.com/website/public/1cf5beca-9248-4784-af79-3caed6b1f2cd/social-media-dashboard.png"
+              alt="Social Media Dashboard" class="img-fluid rounded mb-4">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Social Media Dashboard</h5>
+            <p class="card-text">
+              Real-time social media analytics dashboard with data visualization and reporting.
+            </p>
+            <div class="portfolio-tags mb-3">
+              <span class="badge badge-skill">Angular</span>
+              <span class="badge badge-skill">Chart.js</span>
+              <span class="badge badge-skill">AWS Amplify </span>
+            </div>
+          </div>
+          <div class="card-footer border-0 bg-transparent">
+            <button class="btn btn-sm btn-primary w-100" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+              <i class="bi bi-eye"></i> View Details
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card portfolio-card h-100">
+          <div class="card-img-top portfolio-img d-flex align-items-center justify-content-center bg-warning text-white"
+            style="height: 200px; font-size: 2rem;">
+            <!-- <i class="bi bi-list-task"></i> -->
+            <img
+              src="https://www.proofhub.com/articles/wp-content/uploads/2020/02/Best-Task-Management-App-%E2%80%93-Keep-Your-Business-On-Track.jpg"
+              alt="Task Management App" class="img-fluid">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Task Management App</h5>
+            <p class="card-text">
+              Collaborative task management application with real-time updates and team features.
+            </p>
+            <div class="portfolio-tags mb-3">
+              <span class="badge badge-skill">Angular</span>
+              <span class="badge badge-skill">MongoDB</span>
+              <span class="badge badge-skill">WebSocket</span>
+            </div>
+          </div>
+          <div class="card-footer border-0 bg-transparent">
+            <button class="btn btn-sm btn-primary w-100" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+              <i class="bi bi-eye"></i>
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="blog-section py-5">
+  <div class="container">
+    <h2 class="section-title mb-5">Latest Blog Posts</h2>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card blog-card h-100">
+          <div class="blog-image">
+            <!-- <div class="card-img-top d-flex align-items-center justify-content-center bg-primary text-white"
+              style="height: 200px; font-size: 2rem;">
+              <i class="bi bi-code"></i>
+            </div> -->
+            <img
+              src="https://thumbs.dreamstime.com/b/online-education-learning-work-home-man-hand-writing-notebook-using-laptop-computer-adult-male-student-study-course-177445400.jpg"
+              alt="Angular Signals Blog" class="img-fluid rounded-top">
+            <span class="blog-date">Jan 01, 2026</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Angular Signals: The Complete Guide</h5>
+            <p class="card-text">
+              Learn everything about Angular Signals and how they can enhance your application's reactivity.
+            </p>
+            <div class="blog-meta">
+              <span class="badge badge-secondary">Angular</span>
+              <span class="badge badge-secondary">Tutorial</span>
+            </div>
+          </div>
+          <div class="card-footer border-0 bg-transparent">
+            <a href="https://medium.com/@pavanbaki9503" class="btn btn-sm btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card blog-card h-100">
+          <div class="blog-image">
+            <!-- <div class="card-img-top d-flex align-items-center justify-content-center bg-info text-white"
+              style="height: 200px; font-size: 2rem;">
+              <i class="bi bi-palette"></i>
+            </div> -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmh0OH8HKziENPoY238a4Pq7krFR-wybMEIw&s"
+              alt="CSS Grid Blog" class="img-fluid rounded-top">
+            <span class="blog-date">Dec 28, 2025</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">CSS Grid: A Complete Guide</h5>
+            <p class="card-text">
+              Master CSS Grid layout with practical examples and best practices for modern web design.
+            </p>
+            <div class="blog-meta">
+              <span class="badge badge-secondary">CSS</span>
+              <span class="badge badge-secondary">Design</span>
+            </div>
+          </div>
+          <div class="card-footer border-0 bg-transparent">
+            <a href="https://medium.com/@pavanbaki9503" class="btn btn-sm btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card blog-card h-100">
+          <div class="blog-image">
+            <!-- <div class="card-img-top d-flex align-items-center justify-content-center bg-success text-white"
+              style="height: 200px; font-size: 2rem;">
+              <i class="bi bi-rocket"></i>
+            </div> -->
+            <img
+              src="https://cdn.shopify.com/s/files/1/0817/7988/4088/articles/3cPlniLKRTb08ThyDq5uZL_fe697a53-17ea-4af4-bc7a-1b71cda41dbf.jpg?v=1721067077"
+              alt="Web Performance Blog" class="img-fluid rounded-top">
+            <span class="blog-date">Nov 25, 2025</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Web Performance Optimization Tips</h5>
+            <p class="card-text">
+              Essential techniques to improve your website's performance and user experience.
+            </p>
+            <div class="blog-meta">
+              <span class="badge badge-secondary">Performance</span>
+              <span class="badge badge-secondary">Web Dev</span>
+            </div>
+          </div>
+          <div class="card-footer border-0 bg-transparent">
+            <a href="https://medium.com/@pavanbaki9503" class="btn btn-sm btn-primary w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<!---->
+<section id="contact" class="contact-section py-5">
+  <div class="container">
+    <h2 class="section-title mb-5">Get In Touch</h2>
+    <div class="row">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="46948366-7aee-48dd-affb-f86750fd064d">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+
+            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" name="message" required
+              placeholder="Your message..."></textarea>
+          </div>
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <button type="submit" class="btn btn-outline-primary btn-lg w-100">
+            <i class="bi bi-send"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <div class="contact-info">
+          <div class="contact-item mb-4">
+            <div class="contact-icon">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div>
+              <h5>Location</h5>
+              <p class="text-muted">Hyderabad, Telangana, India</p>
+            </div>
+          </div>
+          <div class="contact-item mb-4">
+            <div class="contact-icon">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div>
+              <h5>Email</h5>
+              <p class="text-muted"><a href="mailto:pavanbaki.p@gmail.com">pavanbaki.p@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item mb-4">
+            <div class="contact-icon">
+              <i class="bi bi-telephone"></i>
+            </div>
+            <div>
+              <h5>Phone</h5>
+              <p class="text-muted"><a href="tel:+91 8688686485">+91 8688686485</a></p>
+            </div>
+          </div>
+          <div class="social-links mt-5">
+            <h5 class="mb-3">Follow Me</h5>
+            <a href="https://github.com/BAKIPAVAN" class="social-link"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/pavanbaki" class="social-link"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/pavanbaki" class="social-link"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/_pavan_baki_" class="social-link"><i class="bi bi-instagram"></i></a>
+            <!-- <a href="https://in.pinterest.com/pavanbaki9503/" class="social-link"><i class="bi bi-pinterest"></i></a> -->
+            <!-- <a href="#" class="social-link"><i class="bi bi-codepen"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Modals -->
+<div class="modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">E-Commerce Platform</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <!-- <div class="img-fluid mb-3 rounded d-flex align-items-center justify-content-center bg-info text-white"
+          style="height: 300px; font-size: 3rem;">
+          <i class="bi bi-cart"></i>
+        </div> -->
+        <img
+          src="https://www.notiontechnologies.com/blog/wp-content/uploads/2023/03/how-to-build-an-ecommerce-website-from-scratch.webp"
+          alt="Task Management App" class="img-fluid rounded mb-5" />
+        <h6>Project Overview</h6>
+        <p>
+          A complete e-commerce platform with product catalog, shopping cart, checkout, and payment
+          integration.
+        </p>
+        <h6>Features</h6>
+        <ul>
+          <li>Product search and filtering</li>
+          <li>Secure payment processing</li>
+          <li>Order tracking</li>
+          <li>Admin dashboard</li>
+          <li>User reviews and ratings</li>
+        </ul>
+        <h6>Technologies</h6>
+        <div class="mb-3">
+          <span class="badge badge-skill m-1">Angular</span>
+          <span class="badge badge-skill m-1">SpringBoot</span>
+          <span class="badge badge-skill m-1">MongoDB</span>
+          <!-- <span class="badge badge-skill">Stripe</span> -->
+          <span class="badge badge-skill m-1">PayPal</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/BAKIPAVAN" class="btn btn-primary">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="portfolioModal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Social Media Dashboard</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <!-- <div class="img-fluid mb-3 rounded d-flex align-items-center justify-content-center bg-success text-white"
+          style="height: 300px; font-size: 3rem;">
+          <i class="bi bi-bar-chart"></i>
+        </div> -->
+
+        <img src="https://www.cyfe.com/wp-content/uploads/2014/02/Cyfe-social-media-dashboard.jpg"
+          alt="Task Management App" class="img-fluid mb-3 rounded" />
+        <h6>Project Overview</h6>
+        <p>
+          Real-time analytics dashboard for monitoring social media performance across multiple platforms.
+        </p>
+        <h6>Features</h6>
+        <ul>
+          <li>Real-time data visualization</li>
+          <li>Multi-platform analytics</li>
+          <li>Custom reports</li>
+          <li>Performance metrics</li>
+          <li>Social listening</li>
+        </ul>
+        <h6>Technologies</h6>
+        <div class="mb-3">
+          <span class="badge badge-skill m-1">Vue.js</span>
+          <span class="badge badge-skill m-1">Chart.js</span>
+          <span class="badge badge-skill m-1">Firebase</span>
+          <span class="badge badge-skill m-1">Socket.io</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/BAKIPAVAN" class="btn btn-primary">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="portfolioModal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Task Management App</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img
+          src="https://uizard.io/static/e5daa42c17923ec354ca0c0414827192/a8e47/320c8071bbbf30e4e49720dd798987a8896cbeb8-1440x835.png"
+          alt="Task Management App" class="img-fluid mb-3 rounded" />
+        <h6>Project Overview</h6>
+        <p>
+          Collaborative task management application with real-time updates, team features, and project
+          tracking.
+        </p>
+        <h6>Features</h6>
+        <ul>
+          <li>Create and assign tasks</li>
+          <li>Real-time collaboration</li>
+          <li>Project timelines</li>
+          <li>Team messaging</li>
+          <li>Progress tracking</li>
+        </ul>
+        <h6>Technologies</h6>
+        <div class="mb-3">
+          <span class="badge badge-skill m-1">Angular</span>
+          <span class="badge badge-skill m-1">MongoDB</span>
+          <span class="badge badge-skill m-1">Node.js</span>
+          <span class="badge badge-skill m-1">WebSocket</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/BAKIPAVAN" class="btn btn-primary">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Chatbot Widget -->
+<div class="chatbot-container" id="chatbotContainer">
+  <!-- Chat Header -->
+  <div class="chatbot-header">
+    <div class="chatbot-header-content">
+      <h6 class="chatbot-title">Chat Assistant</h6>
+      <p class="chatbot-subtitle">Ask me anything!</p>
+    </div>
+    <button class="chatbot-close-btn" id="chatbotCloseBtn">
+      <i class="bi bi-x"></i>
+    </button>
+  </div>
+
+  <!-- Chat Messages -->
+  <div class="chatbot-messages" id="chatbotMessages">
+    <div class="message bot-message">
+      <div class="message-content">
+        <p>Hi there! 👋 I'm your portfolio assistant. Feel free to ask me about my skills, services, or
+          projects!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Input -->
+  <div class="chatbot-input-area">
+    <form class="chatbot-input-form" id="chatbotForm">
+      <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Type your message..."
+        autocomplete="off" />
+      <button type="submit" class="chatbot-send-btn">
+        <i class="bi bi-send"></i>
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Chat Toggle Button (moved into navbar) -->
+
+<!-- Chatbot Script -->
